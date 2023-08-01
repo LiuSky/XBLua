@@ -1,0 +1,22 @@
+PODS:
+  - XBLua (5.4.6):
+    - XBLua/Debug (= 5.4.6)
+    - XBLua/Lua (= 5.4.6)
+    - XBLua/XBSDK (= 5.4.6)
+  - XBLua/Debug (5.4.6)
+  - XBLua/Lua (5.4.6)
+  - XBLua/XBSDK (5.4.6)
+
+DEPENDENCIES:
+  - XBLua (from `../`)
+
+EXTERNAL SOURCES:
+  XBLua:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBLua: cd77598605f45532431415c69d7bc8a57b229030
+
+PODFILE CHECKSUM: fdf207aff43cafae7a52533f4d27ed0b9971c0ad
+
+COCOAPODS: 1.11.3

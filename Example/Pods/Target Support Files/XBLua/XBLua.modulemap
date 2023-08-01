@@ -1,0 +1,6 @@
+framework module XBLua {
+  umbrella header "XBLua-umbrella.h"
+
+  export *
+  module * { export * }
+}

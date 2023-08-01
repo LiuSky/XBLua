@@ -1,0 +1,37 @@
+{
+  "name": "XBLua",
+  "version": "5.4.6",
+  "summary": "A short description of XBLua.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/327847390@q.com/XBLua",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "327847390@q.com": "327847390@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/327847390@q.com/XBLua.git",
+    "tag": "5.4.6"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "subspecs": [
+    {
+      "name": "Lua",
+      "source_files": "XBLua/Classes/Lua/**.{h,m,c}"
+    },
+    {
+      "name": "Debug",
+      "source_files": "XBLua/Classes/Debug/**.{h,m,c}"
+    },
+    {
+      "name": "XBSDK",
+      "source_files": "XBLua/Classes/XBSDK/**.{h,m,c}"
+    }
+  ]
+}
